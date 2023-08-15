@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+<head>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<h1><%= title %></h1>
+
+<p>The history of Afghanistan is a journey through time, encompassing the rise and fall of ancient civilizations, the passage of conquerors and traders, and the resilience of its people. The region's strategic location along the Silk Road facilitated cultural exchange and trade, fostering connections between East and West. Throughout history, Afghanistan has been a melting pot of cultures, languages, and religions, contributing to its unique identity.</p>
+
+<p>Afghanistan's history is marked by periods of great prosperity and times of turbulence. The Mauryan and Kushan empires left their imprint, and the spread of Islam in the 7th century shaped the region's culture. The rise of the Ghaznavid and Timurid dynasties brought architectural and artistic achievements, as seen in the intricate tilework and grand mosques that still stand today.</p>
+
+<p>Colonial encounters and geopolitical shifts in the 19th and 20th centuries brought external influences, leading to moments of reform and conflict. The country's complex relationship with foreign powers, coupled with internal dynamics, has played a significant role in shaping its modern history. The Afghan people's enduring spirit and traditions, evident in their poetry, music, and customs, have persisted despite the challenges.</p>
+
+<p>Today, as Afghanistan continues to navigate its path towards stability and self-determination, acknowledging its historical legacy is crucial. By understanding the deep-rooted heritage that has shaped its society, we gain insight into the struggles and aspirations of its people, fostering empathy and a broader perspective on the nation's journey.</p>
+  
+<img src="afghanistan.jpg" alt="Afghanistan Image">
+
+  <footer>
+  <p><small>&copy; 2023-<span id="this-year"></span> by
+      Tamim Totakhail, All Rights Reserved ~
+      <a id="html-checker" href="#" target="_blank">Check HTML</a> ~
+      <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
+  </p>
+</footer>
+
+<script>
+  document.getElementById("this-year").textContent = new Date().getFullYear();
+</script>
+<%- include('../partials/footer') %>

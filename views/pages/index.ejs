@@ -1,0 +1,31 @@
+<%- include('../partials/header') %>
+<head>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<h1><%= title %></h1>
+
+<p>Welcome to this website, a project developed using Node.js, Express.js, and EJS templates. The primary goal of this website is to provide an interactive and informative experience while showcasing the capabilities of these web technologies.</p>
+
+<p>Node.js, known for its efficient and non-blocking event-driven architecture, powers the backend of this website. Express.js, a popular web application framework, simplifies routing and handling HTTP requests. Together, they enable the creation of dynamic and responsive web applications.</p>
+
+<p>EJS (Embedded JavaScript) templates facilitate the integration of dynamic content into HTML, enhancing the user experience. By separating the structure and content of web pages, EJS allows for efficient content updates and maintenance.</p>
+
+<p>The purpose of this website goes beyond technology demonstration. It aims to inspire and educate developers and enthusiasts about the potential of modern web development. By exploring the pages on technology, travel, history, and development, visitors can gain insights into diverse topics and experience the power of Node.js and Express.js firsthand.</p>
+
+<p>Feel free to navigate through the pages, explore the content, and dive into the source code to understand how this website was crafted. Whether you're a curious learner or a seasoned developer, we hope this website sparks your interest and encourages you to explore the world of web development.</p>
+
+<img src="node.jpg" alt="node Image">
+
+<footer>
+  <p><small>&copy; 2023-<span id="this-year"></span> by
+      Tamim Totakhail, All Rights Reserved ~
+      <a id="html-checker" href="#" target="_blank">Check HTML</a> ~
+      <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
+  </p>
+</footer>
+
+<script>
+  document.getElementById("this-year").textContent = new Date().getFullYear();
+</script>
+<%- include('../partials/footer') %>

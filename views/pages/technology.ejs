@@ -1,0 +1,30 @@
+<%- include('../partials/header') %>
+
+<head>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<h1><%= title %></h1>
+
+<p>Rapid technological advancements have revolutionized the way we live, work, and interact. From the emergence of smartphones that put immense computing power in our pockets to the rise of artificial intelligence that is shaping industries, technology continues to redefine our lives. Innovations like self-driving cars, virtual reality, and the Internet of Things are creating new opportunities and challenges across various sectors.</p>
+
+<p>Modern businesses heavily rely on technology to enhance productivity, streamline operations, and reach wider audiences. Cloud computing has revolutionized data storage and accessibility, enabling organizations to scale rapidly and efficiently. Additionally, breakthroughs in biotechnology and medical devices are revolutionizing healthcare, leading to more accurate diagnostics and personalized treatment options.</p>
+
+<p>However, along with the benefits, technology has brought about concerns related to data privacy, cybersecurity, and the ethical use of AI. As we embrace technological progress, it's essential to address these challenges and ensure that innovations are developed responsibly and for the greater good.</p>
+
+<p>Staying informed about the latest technological trends is crucial for individuals and businesses alike. This page aims to provide insights into the dynamic world of technology, covering topics from cutting-edge research to practical applications.</p>
+  
+<img src="technology.jpg" alt="Technology Image">
+
+  <footer>
+  <p><small>&copy; 2023-<span id="this-year"></span> by
+      Tamim Totakhail, All Rights Reserved ~
+      <a id="html-checker" href="#" target="_blank">Check HTML</a> ~
+      <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
+  </p>
+</footer>
+
+<script>
+  document.getElementById("this-year").textContent = new Date().getFullYear();
+</script>
+<%- include('../partials/footer') %>
